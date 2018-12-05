@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "fe328b64ad81b641ecd19a363aadb75a",
+    "content-hash": "038a60f5007b49a1012c76c5f6779010",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1800,20 +1800,20 @@
         },
         {
             "name": "drupal/jsonapi",
-            "version": "1.23.0",
+            "version": "2.0.0-rc2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/jsonapi",
-                "reference": "8.x-1.23"
+                "reference": "8.x-2.0-rc2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/jsonapi-8.x-1.23.zip",
-                "reference": "8.x-1.23",
-                "shasum": "4fb88736a9ad90a995bdc9c3ab90e7731b6d89e5"
+                "url": "https://ftp.drupal.org/files/projects/jsonapi-8.x-2.0-rc2.zip",
+                "reference": "8.x-2.0-rc2",
+                "shasum": "eb8bf7c9a6873672887dfccf6bd4360b9014cef4"
             },
             "require": {
-                "drupal/core": "^8.4.3"
+                "drupal/core": "^8.5.4"
             },
             "require-dev": {
                 "drupal/schemata": "1.x-dev#8325d172e1d6880aa24073f8f751ef089282cf9a",
@@ -1823,14 +1823,14 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-1.x": "1.x-dev"
+                    "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.23",
-                    "datestamp": "1542081972",
+                    "version": "8.x-2.0-rc2",
+                    "datestamp": "1542809138",
                     "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
+                        "status": "not-covered",
+                        "message": "RC releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -1864,34 +1864,34 @@
         },
         {
             "name": "drupal/jsonapi_extras",
-            "version": "2.13.0",
+            "version": "3.0.0-rc3",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/jsonapi_extras",
-                "reference": "8.x-2.13"
+                "reference": "8.x-3.0-rc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/jsonapi_extras-8.x-2.13.zip",
-                "reference": "8.x-2.13",
-                "shasum": "5c4ea7ef9d4e95963460bfad3c3f3c77f0af36a6"
+                "url": "https://ftp.drupal.org/files/projects/jsonapi_extras-8.x-3.0-rc3.zip",
+                "reference": "8.x-3.0-rc3",
+                "shasum": "ba9fadf5ec885f97406238b227ce3cd6901c11c6"
             },
             "require": {
                 "drupal/core": "^8.5",
-                "drupal/jsonapi": "^1.22 || ^2.0-rc1",
+                "drupal/jsonapi": "^2.0-rc1",
                 "e0ipso/shaper": "^1"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-2.x": "2.x-dev"
+                    "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.13",
+                    "version": "8.x-3.0-rc3",
                     "datestamp": "1543960980",
                     "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
+                        "status": "not-covered",
+                        "message": "RC releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -1906,7 +1906,7 @@
                     "email": "mateu.aguilo.bosch@gmail.com"
                 }
             ],
-            "description": "JSON API Extras provides a means to override and provide limited configurations to the default zero-configuration implementation provided by the JSON API module.",
+            "description": "JSON:API Extras provides a means to override and provide limited configurations to the default zero-configuration implementation provided by the JSON:API module.",
             "homepage": "https://www.drupal.org/project/jsonapi_extras",
             "support": {
                 "source": "http://cgit.drupalcode.org/jsonapi_extras"
