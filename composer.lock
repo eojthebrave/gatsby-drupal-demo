@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d6e7083dd6e60bc13171a2ed098c5ac2",
+    "content-hash": "9e276647082f58fcb93f4c8660721155",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1864,21 +1864,21 @@
         },
         {
             "name": "drupal/jsonapi_extras",
-            "version": "2.13.0",
+            "version": "2.10.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/jsonapi_extras",
-                "reference": "8.x-2.13"
+                "reference": "8.x-2.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/jsonapi_extras-8.x-2.13.zip",
-                "reference": "8.x-2.13",
-                "shasum": "5c4ea7ef9d4e95963460bfad3c3f3c77f0af36a6"
+                "url": "https://ftp.drupal.org/files/projects/jsonapi_extras-8.x-2.10.zip",
+                "reference": "8.x-2.10",
+                "shasum": "023c57a0fa7221d0616aae5b43a2fb7590d0c0a5"
             },
             "require": {
                 "drupal/core": "^8.5",
-                "drupal/jsonapi": "^1.22 || ^2.0-rc1",
+                "drupal/jsonapi": "^1.22",
                 "e0ipso/shaper": "^1"
             },
             "type": "drupal-module",
@@ -1887,8 +1887,8 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.13",
-                    "datestamp": "1543960980",
+                    "version": "8.x-2.10",
+                    "datestamp": "1542151980",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
