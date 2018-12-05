@@ -7,6 +7,7 @@ module:
   ckeditor: 0
   color: 0
   config: 0
+  consumers: 0
   contact: 0
   content_moderation: 0
   contextual: 0
@@ -22,6 +23,8 @@ module:
   help: 0
   history: 0
   image: 0
+  jsonapi: 0
+  jsonapi_extras: 0
   link: 0
   media: 0
   menu_ui: 0
@@ -33,7 +36,10 @@ module:
   rdf: 0
   responsive_image: 0
   search: 0
+  serialization: 0
   shortcut: 0
+  simple_oauth: 0
+  simple_oauth_extras: 0
   system: 0
   taxonomy: 0
   text: 0

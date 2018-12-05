@@ -10,7 +10,9 @@ weight: 0
 is_admin: false
 permissions:
   - 'access content'
+  - 'access jsonapi resource list'
   - 'access site-wide contact form'
+  - 'access user profiles'
   - 'search content'
   - 'use text format restricted_html'
   - 'view media'

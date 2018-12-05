@@ -1,0 +1,9 @@
+uuid: eef9af85-e81b-4e28-844f-ed19cf6abf10
+langcode: en
+status: true
+dependencies: {  }
+id: gatsby_client
+label: 'Gatsby Client'
+weight: 5
+is_admin: null
+permissions: {  }
