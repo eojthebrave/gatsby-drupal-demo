@@ -35,4 +35,9 @@ if (file_exists($local_settings)) {
  * Always install the 'standard' profile to stop the installer from
  * modifying settings.php.
  */
-$settings['install_profile'] = 'standard';
+$settings['install_profile'] = 'demo_umami';
+
+// Automatically generated include for settings managed by ddev.
+if (file_exists($app_root . '/' . $site_path . '/settings.ddev.php')) {
+  include $app_root . '/' . $site_path . '/settings.ddev.php';
+}

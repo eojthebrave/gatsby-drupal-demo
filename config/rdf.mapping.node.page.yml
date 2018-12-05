@@ -1,4 +1,4 @@
-uuid: 28a8928d-85be-40e0-bf03-f1d9c5f4f9d1
+uuid: fab79a30-1831-4a8c-8656-4f7de262af7e
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
   module:
     - node
 _core:
-  default_config_hash: 32LxRnl4Wesvzqyfp7HnD0-U9-wxrLBn76pqY5XGNAE
+  default_config_hash: 7PaJhrfWUEPpa7EzPkwBWBM1OIhAlw7bfl99yL-kaqk
 id: node.page
 targetEntityType: node
 bundle: page
@@ -34,10 +34,3 @@ fieldMappings:
     properties:
       - 'schema:author'
     mapping_type: rel
-  comment_count:
-    properties:
-      - 'schema:interactionCount'
-    datatype_callback:
-      callable: 'Drupal\rdf\SchemaOrgDataConverter::interactionCount'
-      arguments:
-        interaction_type: UserComments
