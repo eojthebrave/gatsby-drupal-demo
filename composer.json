@@ -17,15 +17,15 @@
         "drupal/config_direct_save": "^1.0",
         "drupal/config_installer": "^1.0",
         "drupal/console": "^1",
-        "drupal/core": "^8",
-        "drupal/jsonapi_extras": "2.10.0",
+        "drupal/core": "^8.7.6",
+        "drupal/jsonapi_extras": "^3.10",
         "drupal/simple_block": "^1.0@beta",
         "drupal/simple_oauth": "^3.11",
         "drush-ops/behat-drush-endpoint": "^9.3",
         "drush/drush": "~8.3",
         "pantheon-systems/quicksilver-pushback": "~1",
         "rvtraveller/qs-composer-installer": "^1.1",
-        "webflo/drupal-core-strict": "^8"
+        "webflo/drupal-core-strict": "^8.7.6"
     },
     "require-dev": {
         "mikey179/vfsstream": "^1.2",
